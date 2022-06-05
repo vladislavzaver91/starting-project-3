@@ -1,0 +1,130 @@
+:root {
+    --primary-white-color: #ffffff;
+    --primary-text-color: #000000;
+    --secondary-text-color: #333333;
+    --primary-btn-color: #808E88;
+    --bg-color:#E9ECE0;
+    --secondary-bg-color: #5B6460;
+    --third-bg-color:#E9ECE0;
+}
+
+.list {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.link {
+    display: block;
+    text-decoration: none;
+    font-style: normal;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color:var(--primary-white-color);
+    color: var(--primary-text-color);
+    font-family: Open Sans, sans-serif;
+
+    font-size: 16px;
+    line-height: 1.88;
+}
+
+/* button */
+
+.button {
+    border: none;
+    padding: 16px 60px;
+
+    color: var(--primary-white-color);
+    background-color: var(--primary-btn-color);
+
+    font-family: Crimson Pro, serif;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 1.56;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.top.button {
+    border: none;
+    padding: 36px 82px;
+    
+    color: var(--primary-white-color);
+    background-color: var(--primary-btn-color);
+    
+    font-family: Crimson Pro, serif;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 1.56;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+/* ---------------------HEADER------------------------ */
+
+.site-nav .link {
+    color: var(--primary-text-color);
+
+    font-family: Crimson Pro, serif;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 1.71;
+
+    text-transform: uppercase;
+}
+
+/* hero */
+
+.hero {
+    background-color: tomato;
+}
+
+.hero-title {
+    color: var(--primary-white-color);
+
+    font-weight: 300;
+    font-size: 70px;
+    line-height: 1.03;
+
+    text-align: right;
+}
+
+.hero .text {
+    color: var(--primary-white-color);
+
+    font-family: Mulish, sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 1.40;
+    
+    text-align: center;
+}
+
+.hero .price-text {
+    color: var(--secondary-text-color);
+    background-color: var(--bg-color);
+
+    font-family: Crimson Pro, serif;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 1.50;
+
+}
+
+.hero .accent {
+    color: var(--secondary-text-color);
+
+    font-family: Crimson Pro, serif;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.40;
+}
+
